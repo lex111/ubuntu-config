@@ -1,0 +1,30 @@
+# Android/IntelliJ
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+node_modules/
+npm-debug.*
+yarn-error.log
+
+.expo/
+haste-map*
+react-native-packager-cache**
+haste-map-react-native-packager**
+.rnplay
+tmp
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+jest
+!jest/setup.js
+
+metro-bundler-*
+
+.vscode
+yarn.lock
